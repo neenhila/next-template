@@ -10,7 +10,7 @@ export default function Index(props: any) {
     const [name, setName] = useState();
     const [age, setAge] = useState();
     return (
-        <div className='w-screen h-screen d-flex justify-center items-center flex-col'>
+        <div className='w-screen h-screen flex justify-center items-center flex-col'>
             <div>Your name: {name}</div>
             <div>Your age: {age}</div>
             <button onClick={(e) => {
